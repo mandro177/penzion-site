@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+ body{
+     margin-top: 50px;
+ }
+
+ h1,
+ h2,
+ h3,
+ .navbar-brand{
+    font-family: 'Raleway';
+ }
+
+#slider{
+    margin-bottom: 20px;
+}
+
+.panel{
+    border-radius: 0;
+}
+
+footer{
+    background-color: #3e3f3a;
+    color: #fff;
+    padding: 20px 0;
+}
