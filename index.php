@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Penzión</title>
+<?php include_once '_include/header.php'; ?>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/app.css">
-</head>
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Penzión</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#">Report</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div id="slider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -118,25 +86,4 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    &copy; 2017 Penzión | Všetky práva vyhradené.
-                </div>
-                <div class="col-md-6 text-right">
-                    <ul id="social">
-                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- <script src="assets/js/app.min.js"></script> -->
-</body>
-</html>
+<?php include_once '_include/footer.php'; ?>
