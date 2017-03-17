@@ -34,6 +34,12 @@
     line-height: 28px
 }
 
+#logo-img{
+    height:40px;
+    float:left;
+    margin-top:16px;
+    margin-right:10px
+}
 /* PANELS */
 
 .panel{
@@ -78,6 +84,18 @@
 #contact h3{
     padding: 10px 0 20px;
 }
+.sendmessage{
+    background-color: rgba(61, 62, 57, 0.9);
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 6px 10px 6px;
+    font-size: 13px;
+
+}
+
+
+
 
 /* FOOTER */
 
