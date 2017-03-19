@@ -1,5 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+ @import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
  @import url('https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css');
+
 
  body{
      margin-top: 50px;

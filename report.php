@@ -20,6 +20,13 @@
                 <div class="panel-body">
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab1">
+
+                       
+                        <h4>  <i class="ion-android-contacts" style="font-size:40px;color:#a6a6a6"></i><b> &nbsp;Prezrite si, čo o nás povedali naši klienti...</b></h4>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+                        <br>
+                        
+                        <hr>
 <table id="knihanavstev" class="display" cellspacing="0" width="100%" >
         <thead>
             <tr>
@@ -44,7 +51,7 @@
             <tr>
                 <td>Peter Kováč</td>
                 <td>5.5.2016</td>
-                <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
 
                 <td>
                  <button type="submit" class="btn btn-circle" ><i class="fa fa-pencil" aria-hidden="true"></i></button>
@@ -57,7 +64,7 @@
                 <tr>
                 <td>Jana Malá</td>
                 <td>5.6.2016</td>
-                <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
 
                 <td>
                  <button type="submit" class="btn btn-circle" ><i class="fa fa-pencil" aria-hidden="true"></i></button>
@@ -70,7 +77,7 @@
                 <tr>
                 <td>Marek Mach</td>
                 <td>5.7.2016</td>
-                <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</td>
 
                 <td>
                  <button type="submit" class="btn btn-circle" ><i class="fa fa-pencil" aria-hidden="true"></i></button>
@@ -86,7 +93,37 @@
     </table>
                             
                         </div>
-                        <div class="tab-pane" id="tab2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                        <div class="tab-pane" id="tab2">
+                        <h4>  <i class="fa fa-comments" style="font-size:40px;color:#a6a6a6"></i><b> &nbsp; Podpíšte sa do našej virtuálnej knihy návštev a povedzte svoj názor ostatným...</b></h4>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+                        <br>
+                            <div class="col-md-12 col-lg-12" style="margin-bottom:40px">
+    <div class="form-area">  
+        
+        <br>
+        <h3 style="margin-bottom: 25px; text-align:left">Podpíšte sa</h3>
+                    <div class="form-group">
+                       <input class="contact-input" placeholder="Meno" required id="meno" name="Meno" />
+                    </div>
+                   
+                    
+                    <div class="form-group">
+                       <input class="contact-input" placeholder="Dátum" required id="meno" name="Predmet" />
+                    </div>
+                    <div class="form-group">
+
+                    <textarea class="contact-textarea" type="textarea"  placeholder="Váš komentár"  rows="4"></textarea>
+                                            
+                    </div>
+            
+        <button type="button" class="btn-default pull-right sendmessage" >Odoslať</button>
+        
+    </div>
+
+
+</div>
+
+                        </div>
                         <div class="tab-pane" id="tab3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
                       
                     </div>
