@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -23,17 +20,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
-                <a href="index.php"> <img src="images/slide/penzion_logo.png" id="logo-img"></a>
-              
-               
+                <a href="index.php" class="navbar-brand"><img src="images/slide/penzion_logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="report.php">Report</a></li>
-                    <li><a href="kontakt.php">Kontakt</a></li>
+                    <?php echo ($_SERVER['REQUEST_URI'] == '/index.php') ? '<li class="active">' : '<li>' ?><a href="index.php">Domov</a></li>
+                    <?php echo ($_SERVER['REQUEST_URI'] == '/report.php') ? '<li class="active">' : '<li>' ?><a href="report.php">Kniha návštev</a></li>
+                    <?php echo ($_SERVER['REQUEST_URI'] == '/contact.php') ? '<li class="active">' : '<li>' ?><a href="contact.php">Kontakt</a></li>
                 </ul>
             </div>
         </div>

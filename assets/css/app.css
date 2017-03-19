@@ -1,32 +1,35 @@
- @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
- @import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
- @import url('https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css');
 
 
- body{
-     margin-top: 50px;
-     font-size: 16px;
- }
+body{
+    margin-top: 65px;
+    font-size: 16px;
+}
 
- h1,
- h2,
- h3,
- .navbar-brand{
+h1,
+h2,
+h3,
+.navbar-brand{
     font-family: 'Raleway';
- }
+}
 
- .navbar-brand{
-     height: auto;
-     font-size: 20px;
-     line-height: 28px;
- }
+.navbar-brand{
+    height: auto;
+    padding: 14px;
+}
 
- a{
-     transition: all .35s;
- }
- a:hover{
-     text-decoration: none;
- }
+.navbar-brand img{
+    max-height: 40px;
+}
+
+a, .btn{
+    transition: all .35s;
+}
+a:hover{
+    text-decoration: none;
+}
 
 #slider{
     margin-bottom: 20px;
@@ -37,12 +40,6 @@
     line-height: 28px
 }
 
-#logo-img{
-    height:40px;
-    float:left;
-    margin-top:16px;
-    margin-right:10px
-}
 /* PANELS */
 
 .panel{
@@ -91,16 +88,16 @@
     background-color: rgba(61, 62, 57, 0.9);
     color: #fff;
     border-radius: 20px;
-    
+
     padding: 4px 10px 4px;
     font-size: 13px;
 
 }
 .contact-input{
     -webkit-appearance: none; -moz-appearance: none;
-    width: 100%; 
+    width: 100%;
     height: 38px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     background: rgba(245,245,245,0.9);
     outline: none;
     padding: 10px;
@@ -118,9 +115,9 @@
 }
 .contact-textarea{
     -webkit-appearance: none; -moz-appearance: none;
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     background: rgba(245,245,245,0.8);
     outline: none;
     padding: 10px;
@@ -137,29 +134,51 @@
     display: block;
 }
 
-.adresa ul{
-    list-style-type: none;
-    margin-left: -40px;
+.adresa{
+    margin-top: 40px;
+    padding-bottom: 10px;
 }
-.adresa ul>li {
-margin-bottom: 10px;
+
+.adresa .fa{
+    font-size: 15px;
+    color: #a6a6a6;
 }
 .adresa table,td, th {
     border:none !important;
     margin-left: -10px;
 }
 .gallery{
-    margin-left:-10px;
+    padding-bottom: 25px;
+}
 
-}
-.gallery-photo img{
-    
-}
 .gallery-photo {
     margin-bottom: 5px;
 }
 
+.form{
+    margin-top: 40px;
+    border-left: 1px dashed #c9c9c9;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
 
+.adresa h3,
+.form h3{
+    margin-bottom: 25px;
+}
+
+.report{
+    margin-top: 40px;
+}
+
+.report .panel-tabs{
+    margin-top: -15px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0;
+    margin: 0;
+}
 
 /* FOOTER */
 
@@ -232,7 +251,7 @@ footer #social li a:hover{
 .panel-primary > .panel-heading{
 
     background-color: #3e3f3a;
-border-color:  #3e3f3a;
+    border-color:  #3e3f3a;
 }
 .panel-primary {
     border-color:  #3e3f3a;
@@ -242,30 +261,25 @@ border-color:  #3e3f3a;
     text-align: left;
 }
 .btn-circle {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  padding: 1px 0;
-  font-size: 13px;
-  line-height: 1.428571429;
-  border-radius: 15px;
-  font-size: 10px;
-  border: 1px solid rgba(1,1,1,0.3) ;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 1px 0;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    font-size: 10px;
+    border: 1px solid rgba(1,1,1,0.3) ;
 }
- .btn-circle:hover, .btn-circle:focus, .btn.focus {
-    
-
-     width:30px;
-  height: 30px;
-  background-color: #222;
-  text-align: center;
-  padding: 1px 0;
-  font-size: 13px;
-  line-height: 1.428571429;
-  border-radius: 15px;
-  font-size: 15px;
-  border: 1px solid rgba(1,1,1,0.3) ;
+.btn-circle:hover, .btn-circle:focus, .btn.focus {
+    width:30px;
+    height: 30px;
+    background-color: #222;
+    text-align: center;
+    padding: 1px 0;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid rgba(1,1,1,0.3) ;
 }
-
-
-
