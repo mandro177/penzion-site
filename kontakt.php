@@ -2,11 +2,11 @@
 
 <div class="container">
 
-<div class="col-md-5 col-lg-5">
+<div class="col-md-5 col-lg-5" style=" ;border-right: 1px dashed #c9c9c9;}">
     <div class="adresa">  
         
         <br>
-        <h3 style="margin-bottom: 25px; text-align: left;">Kontaktujte nás</h3>
+        <h3 style="margin-bottom: 25px; text-align: left; ">Kontaktujte nás</h3>
                     
         <ul>
                            
@@ -19,16 +19,16 @@
                            <table class="table" >
                     <tbody>
                       <tr>
-                        <td class="col-md-5"><i class="fa fa-phone" aria-hidden="true"></i> Telefónne číslo:</td>
+                        <td class="col-md-5"><i class="fa fa-phone" aria-hidden="true" style="font-size:15px;color:#a6a6a6" ></i> Telefónne číslo:</td>
                         <td class="stats">+421 912 654 125</td>
                       </tr>
                       
                       <tr>
-                        <td><i class="fa fa-envelope" aria-hidden="true"></i> Email:</td>
+                        <td><i class="fa fa-envelope" aria-hidden="true" style="font-size:15px;color:#a6a6a6"></i> Email:</td>
                         <td class="stats">info@penzion.sk </td>
                       </tr>
                       <tr>
-                        <td><i class="fa fa-globe" aria-hidden="true"></i> Web:</td>
+                        <td><i class="fa fa-globe" aria-hidden="true" style="font-size:15px;color:#a6a6a6"></i> Web:</td>
                         <td class="stats"><a href="#">www.penzion.sk</a></td>
                       </tr>
                    

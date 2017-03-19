@@ -1,4 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+ @import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+ @import url('https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css');
+
 
  body{
      margin-top: 50px;
@@ -187,3 +190,82 @@ footer #social li a{
 footer #social li a:hover{
     color: #93c54b;
 }
+
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
+.panel-primary > .panel-heading{
+
+    background-color: #3e3f3a;
+border-color:  #3e3f3a;
+}
+.panel-primary {
+    border-color:  #3e3f3a;
+    border-radius: 5px;
+}
+.panel-title{
+    text-align: left;
+}
+.btn-circle {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 13px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  font-size: 10px;
+  border: 1px solid rgba(1,1,1,0.3) ;
+}
+ .btn-circle:hover, .btn-circle:focus, .btn.focus {
+    
+
+     width:30px;
+  height: 30px;
+  background-color: #222;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 13px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  font-size: 15px;
+  border: 1px solid rgba(1,1,1,0.3) ;
+}
+
+
+
