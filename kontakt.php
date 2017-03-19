@@ -2,11 +2,11 @@
 
 <div class="container">
 
-<div class="col-md-5 col-lg-5">
+<div class="col-md-5 col-lg-5" style=" ;border-right: 1px dashed #c9c9c9;}">
     <div class="adresa">  
         
         <br>
-        <h3 style="margin-bottom: 25px; text-align: left;">Kontaktujte nás</h3>
+        <h3 style="margin-bottom: 25px; text-align: left; ">Kontaktujte nás</h3>
                     
         <ul>
                            
