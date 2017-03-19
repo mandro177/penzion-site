@@ -132,5 +132,26 @@
         </div>
     </div>
 </div>
+<div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Napíšte nám</h3>
+                    <address>
+                        <strong>Penzión</strong><br>
+                        Ulica 35<br>
+                        Horná Dolná<br>
+                        265 45<br><br>
+                        +421 912 654 125<br>
+                        info@penzion.sk
+                    </address>
+                </div>
+                <div class="col-md-6">
+                    <h3>Nájdete nás</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2410.475031427031!2d18.076836427265473!3d48.30150022749602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6920fd1ded6b2dd0!2sPenzi%C3%B3n+Premona!5e0!3m2!1ssk!2ssk!4v1489692812989" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php include_once '_include/footer.php'; ?>
