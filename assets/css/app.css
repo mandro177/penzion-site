@@ -207,21 +207,24 @@ a:hover{
     font-size: 12px;
 }
 /* CENNIK */
- h4{
-        font-weight: 600;
+ .h3-cena{
+        font-weight: 500;
+        padding-left: 18px;
     }
-    p{
+    .p-cena{
         font-size: 12px;
         margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .cena{
         font-size: 30px;
-        margin: 0 auto;
+        margin-left: 15px;
         color: #333;
     }
     
     .thumbnail{
-        opacity:0.70;
+        opacity:0.90;
         -webkit-transition: all 0.5s; 
         transition: all 0.5s;
     }
@@ -236,6 +239,11 @@ a:hover{
     .thumbnail{
         background-color: #fff;
         border: 1px solid #d0d0d0;
+    }
+    .cena-row{
+        background-color:  #e7e7e7;
+        margin-left: 0px;
+        margin-right:0px; 
     }
 
 /* FOOTER */
