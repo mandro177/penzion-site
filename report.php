@@ -9,7 +9,7 @@
                     <ul class="nav panel-tabs pull-right">
                         <li class="active"><a href="#tab1" data-toggle="tab">Návštevy</a></li>
                         <li><a href="#tab2" data-toggle="tab">Podpísať sa</a></li>
-                        <li><a href="#tab3" data-toggle="tab">Tab 3</a></li>
+                        <li><a href="#tab3" data-toggle="tab">TOP hodnotenia</a></li>
                     </ul>
                 </div>
                 <div class="panel-body">
@@ -95,7 +95,69 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="tab3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                        <div class="tab-pane" id="tab3">
+                            <h4>  <i class="ion-ribbon-b" style="font-size:40px;color:#a6a6a6"></i><b> &nbsp; Prezrite si naše najlepšie hodnotenia...</b></h4>
+                        <blockquote>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </blockquote>
+                        <br>
+                        
+                        <div class="row">
+        <div class="col-md-4 ">
+            <div class="cit">
+                <div class="active item">
+                  <blockquote><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p></blockquote>
+                  <div class="obsah">
+                    <img alt="" src="images/slide/face1.jpg" class="pull-left">
+                    <div class="pull-left">
+                      <span class="cit_meno">Jozef K.</span>
+                      <span class="cit_post">Manažér</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+         <div class="col-md-4 ">
+            <div class="cit">
+                <div class="active item">
+                  <blockquote><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p></blockquote>
+                  <div class="obsah">
+                    <img alt="" src="images/slide/face2.jpg" class="pull-left">
+                    <div class="pull-left">
+                      <span class="cit_meno">Jana K.</span>
+                      <span class="cit_post">Web developer</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4 ">
+            <div class="cit">
+                <div class="active item">
+                  <blockquote><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p></blockquote>
+                  <div class="obsah">
+                    <img alt="" src="images/slide/face3.jpg" class="pull-left">
+                      <span class="cit_meno">Dana D.</span>
+                      <span class="cit_post">Účtovníčka</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
